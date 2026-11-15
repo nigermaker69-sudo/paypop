@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "paypop",
+  "version": "1.0.0",
+  "name": "PayPop",
+  "description": "TikTok-live-style reactions when you get paid on DonutSMP.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.paypop.PayPopClient"] },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
